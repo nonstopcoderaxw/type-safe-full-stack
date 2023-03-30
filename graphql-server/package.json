@@ -13,7 +13,8 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:seed": "prisma db seed",
     "prisma:studio": "prisma studio",
-    "clear":"rimraf node_modules"
+    "clear":"rimraf node_modules",
+    "build:production": "yarn --production=true; yarn primsa:generate"
   },
   "dependencies": {
     "typescript": "^5.0.0",
