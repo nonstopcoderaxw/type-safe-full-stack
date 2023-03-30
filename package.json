@@ -1,0 +1,8 @@
+{
+  "name": "type-safe-full-stack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "project:init":"npm create vite@latest react-client -- --template react-ts"
+  }
+}
